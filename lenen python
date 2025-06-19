@@ -1,0 +1,532 @@
+a=" mahmoud "
+f ="fawzy "
+print (a+" "+f)
+#----------------------------------------
+print (type (10))
+print (type ( 1.3 ))
+print (type( "mahmoud fawzy "))
+print (type ([1,2,3,4,5]))
+print (type ([1,2,3,4,5]))
+print (type ( {"one ":1}))
+print (type ((2==2)))
+#--------------------------------------
+print (" mahmoud \
+    fawzy\
+        ahmed  ")
+print ("mahmoud fawzy ahmed \\")
+print ("mahmoud \b fawzy ")
+print  ("mahmoud \t fawzy")
+print (" mahmloud \'fawzy\'")
+print ("mahmoud \'fawzy\'")
+print ("12345\rabcd")
+print  ("mahmoud \n fawzy ")
+print ("\x32\x64\x74")
+#------------------------------------
+k="mahmoud fawzy ahmed "
+print (k[6])
+print (k[-7])
+print (k[::4])
+#-------------------------------------------
+l=" mahmoud fawzy ahmed "
+a,b,c,d,e="!","22","333","4444","55555"
+print (len(l))
+print (l.strip())
+print (l.rstrip())
+print (l.lstrip())
+print (l.title ())
+print (l.capitalize ())
+print (l.upper())
+print (l.lower())
+print (a.zfill (5))
+print (b.zfill (5))
+print (c.zfill (5))
+print (d.zfill (5))
+print (e.zfill (5))
+#---------------------
+
+#string mwthods 
+#--------------------------------
+#split() rsplit()
+a=" i love python "
+print (a.split())
+d="l-love-python-and-php"
+print (d.split("-"))
+print (d.split("-",2))
+print (d.rsplit("-",2))
+#----------------------------------
+#center()
+a="mahmoud"
+print (a.center(10))
+print (a.center(10,"#"))
+print (a.center(11,"@"))
+#-------------------------------------------
+#count()
+a="i love python and PHP becouse PHP is esay"
+print (a.count("PHP"))
+print (a.count("PHP",0,25))
+print (a.count ("PHP",0,35))
+#---------------------------
+#swapcase()
+a=" i love python"
+s="i love pYTHON"
+print (s.swapcase())
+print (a.swapcase())
+#--------------------------------
+#startswith()
+a="i love python"
+print (a.startswith("1"))
+print (a.startswith("s"))
+print (a.startswith("p",7,12))
+#-------------------------------
+#endswith()
+a="i love python"
+print (a.endswith("n"))
+print  (a.endswith("p"))
+print (a.endswith("p",2,6))
+####-------------------------------
+a="mahmoud fawzy ahmed"
+print (a.split())
+print (a.rsplit())
+print (a.center(50))
+print (a.center(50,"@"))
+print (a.count("m"))
+print (a.count ("m",0,10))
+print (a.swapcase())
+print (a.startswith("m"))
+print (a.endswith("d"))
+#---------------------------
+a="     mahmoud fawzy ahmed     "
+f,b,c,d,e="1","22","333","4444","55555"
+print (len(a))
+print (a.strip())
+print (a.rstrip())
+print (a.lstrip())
+print (a.title())
+print (a.capitalize())
+print (a.upper())
+print (a.lower())
+print (f.zfill(5))
+print (b.zfill(5))
+print (c.zfill(5))
+print (d.zfill(5))
+print (e.zfill(5))
+#----------------------
+a="mahmoud fwazy ahmed abo romanan"
+print(a.split())
+print (a.rsplit())
+print (a.center(50,"@"))
+print (a.count("m"))
+print (a.swapcase())
+print (a.startswith("m"))
+print (a.endswith("n"))
+print (len(a))
+print (a.strip())
+print (a.rstrip())
+print (a.lstrip())
+print (a.title())
+print (a.capitalize())
+print (a.upper())
+print (a.lower())
+print (a.zfill(10))
+#--------------------------------
+#
+#variable
+g="mahmoud"
+h="fawzy"
+print (g+" "+h)
+print (type (10))
+print (type (1.2))
+print (type("mahmoud "))
+print (type ([1,2,3,4,5]))
+print (type ((1,2,3,4,5)))
+print (type ({"one":1,"two":2,"three":3}))
+print (type((2==2)))
+#------------------------------
+print ("mahmoud\
+fawzy\
+    ahmed")
+print ("mahmjoud fawyza heme \\")
+print ("mahmoud\b fawzy")
+print ("mahmoud \nfawyz")
+print ("mahmoud\'fawzy\'")
+print ('mahmoud\"fawzy\"')
+print ("mahmoud \tfawzy")
+print ("123456\rabcde")
+print ("\x34\x63\x83")
+#----------------------
+a="mahmoud fawz ahmed"
+print(a[7])
+print(a[-7])
+print (a[::4])
+#--------------------------
+a="mahmoud"
+print (a.split())
+print (a.rsplit())
+print (a.center(50))
+print (a.count("a"))
+print (a.swapcase())
+print (a.startswith("m"))
+print (a.endswith("d"))
+import itertools
+def brute_force(target,charset,max_length):
+    for length in range (1,max_length+1):
+        print (a)
+a="mahmoud fawzy ahmed"
+print (a.split())
+print (a.rsplit())
+print (a.center(20))
+print (a.count("m"))
+print (a.swapcase())
+print (a.startswith("m"))
+print (a.endswith("d"))
+print (len(a))
+print (a.strip())
+print (a.rstrip())
+print (a.lstrip())
+print (a.title())
+print (a.capitalize())
+print (a.upper())
+print (a.lower())
+print (a.zfill(5))
+import itertools 
+def brute_force(target,charset,max_length):
+    for length in range (1,max_length+1):
+        print ("erorr")
+
+
+a="mahmoud fawzy ahmed"
+f,b,c,d,f="1","22","333","4444","5555"
+print (len(a))
+print (a.strip())
+print (a.rstrip())
+print (a.lstrip())
+print (a.title())
+print (a.capitalize())
+print (a.upper())
+print (a.lower())
+print (f.zfill(5))
+print (b.zfill(5))
+print (c.zfill(5))
+print (d.zfill(5))
+print (f.zfill(5))
+print (a.split())
+print (a.rsplit())
+print (a.center(50,"@"))
+print (a.count("m",0,20))
+print (a.swapcase())
+print (a.startswith("m",0,20))
+print (a.endswith("d",20,0))
+import itertools 
+def brute_force(target,charset,max_length):
+    for length in range (1,max_length+1):
+        print (a)
+
+a="mahmoud fawzy ahemd"
+print (len(a))
+print (a.split())
+print (a.center(20))
+print (a.count("m"))
+print (a.swapcase())
+print (a.startswith("m"))
+print (a.endswith("d"))
+#--------------------------------------
+#string method 
+#-----------------------------
+# index (substring ,start ,end )
+m="i love mahmoud "
+print (m.index("m",0,10))
+#*-----------------------------------
+# find (substring ,start ,end )
+a="i love mahmoud "
+print (a.find("m",0,10))
+# rjust(width,fillchar) ,ljust(width,fill char)
+a="mahmoud "
+print (a.rjust(10,"#"))
+print (a.ljust(10,"#"))
+#--------------------------------
+#splitlines()
+a="""mahmoud 
+fawzy ahmw 
+abu romanam """
+print (a.splitlines())
+f="mahmoud\nfawzy\nahmed\ahmed"
+print (f.splitlines())
+#---------------------------
+#expandtabs()
+a="hallo\tmahmoud\tfawzy\tahmed"
+print (a.expandtabs(2))
+#-----------------------------
+#istitle()
+a="i love python and 3g"
+f="i love mahmoud fawzx 3G"
+print (a.istitle())
+print (f.istitle ())
+#----------------------
+#isspace() 
+a=" "
+f=""
+print (a.isspace())
+print (f.isspace())
+#-------------------------
+#islower()
+a=" i love mahmoud "
+f="I LOVE mahmoud "
+print (a.islower())
+print (f.islower())
+#--------------------------------
+#isidentifier()
+a="mahmoud-fawzy"
+f="mahmoudfawzy"
+h="mahmoud--fawzy"
+print (a.isidentifier())
+print (f.isidentifier())
+print (h.isidentifier())
+#---------------------
+#isalpha()
+m="AaaaaaaBbbbbb"
+f="AaaaaaBbbbbbbb11111"
+print (m.isalpha())
+print (f.isalpha())
+#-----------------------------
+#isalnum()
+a="AaaaaaaaBbbbbbb"
+f="AaaaaBbbbbb1111"
+print (a.isalnum())
+print (f.isalnum())
+#+-----------------------------------
+a="       mahmoud fawzy ahmed          "
+s="mahmoud\nfawz\nahmed"
+d="mahmou\tfawzy\ahmed"
+y,x,c,v,b,n,m="1","22","333","4444","55555","666666","7777777"
+print (len(a))
+print (a.strip())
+print (a.rstrip())
+print (a.lstrip())
+print (a.title())
+print (a.capitalize())
+print (a.casefold())
+print (a.lower())
+print (a.upper())
+print (y.zfill(7))
+print (x.zfill(7))
+print (c.zfill(7))
+print (v.zfill(7))
+print (b.zfill(7))
+print (n.zfill(7))
+print (m.zfill(7))
+#-----------------------------
+print (s.split())
+print (s.rsplit())
+print (a.center(20))
+print (a.count("m"))
+print (a.swapcase())
+print (a.startswith("m"))
+print (a.endswith("d"))
+#----------------------------------
+print (a.index("m",0,10))
+print (a.find("m",0,10))
+print (a.rjust(20,"#"))
+print (a.ljust(20,"#"))
+print (s.splitlines())
+print (d.expandtabs(2))
+print (a.istitle())
+print (a.isspace())
+print (a.isidentifier())
+print (a.islower())
+print (a.isalpha())
+print (a.isalnum())
+##--------------------------------##
+# replace (old value, new value ,count)
+a="hello one two three one one"
+print (a.replace("one","1",1))
+print (a.replace("three","3",1))
+#----------------
+#join (iterable)
+mylist=["mahmoud","ahmed","fawzy"]
+print (" ".join(mylist))
+print (",".join(mylist))
+print (".".join(mylist))
+
+# formatting
+
+m="mahmoud"
+n=21
+b=1
+print ("my name is :%s and my age is:%d and my rank is:%f")
+
+
+print ("my name is {:s}and my age {:d} and my rank {:f}".format(m,n,b))
+
+# {:s} => string
+# {:d} => number
+# {:f} => float
+
+print ("my name is: {:s}and my age is{:d} and my rank is {:f}".format(m,n,b))
+
+#control formatting point number
+
+mynumber=10
+print ("my number is %d"%mynumber)
+print ("my number is %f"%mynumber)
+print ("my number is %.5d"%mynumber)
+print ("my number is {:d}".format(mynumber))
+print ("my number is {:f}".format(mynumber))
+print ("my number is {:d}".format(mynumber))
+
+#trucate string
+
+mylongstring="hallo everyone in my website"
+print ("masage is %s"%mylongstring)
+print ("masage is %.5s"%mylongstring)
+print ("masage is %.13s"%mylongstring)
+print ("massage is {:s}".format(mylongstring))
+print ("massage is {:.5s}".format(mylongstring))
+print ("massage is {:.13s}".format(mylongstring))
+
+#format money
+mymoney=928848284829
+print ("my money is bank :{:d}".format(mymoney))
+print ("my money is bank :{:-d}".format(mymoney))
+print ("my money is bank :{:,d}".format(mymoney))
+
+#rearrange items
+a,b,c="one","two","three"
+print ("hallo{}{}{}".format(a,b,c))
+print ("hallo{0}{1}{2}".format(a,b,c))
+print ("hallo{2}{1}{0}".format(a,b,c))
+
+x,y,z=10,20,30
+print ("hallo{}{}{}".format(x,y,z))
+print ("hallo{0:d}{1:d}{2:d}".format(x,y,z))
+print ("hallo{2:.2f}{1:.5f}{0:.3f}".format(x,y,z))
+
+# format in version 3.6+
+myname="mahmoud"
+myage=21
+print ("my name is {myname}and my age {mayga}")
+print (f"my name is {myname}and my age {myage}")
+
+#####number
+
+# interger
+print (type(1))
+print (type(2))
+print (type(11))
+print (type(-11))
+
+
+# float
+print (type(1.2))
+print (type(1.23))
+print (type(122.2))
+print (type(-133.232))
+
+#complex
+print (type(2+3j))
+print (type(23+4j))
+print (type(5+9j))
+mycomplexnumber=5+2j
+print ("real part is :{}".format(mycomplexnumber.real))
+print ("imaginary part is:{}".format(mycomplexnumber.imag))
+#[1]you van convert from int to float or complex
+#[2]you can convert from float to int or complex
+#[3]you cannot convert complex to any type
+
+# example
+print (100)
+print (float(100))
+print (complex(100))
+
+print (1.2)
+print (int(1.2))
+print (complex(1.2))
+
+print (2+4j)
+# print (int(1+2j))
+
+
+# arithmetic operators
+
+#[+] addition
+#[-] subtraction
+#[*] multiplication
+#[/] division
+#[%] modulus
+#[**] exponent
+#[//] floor division
+
+#addition
+print (2+3)
+print (10+30)
+print (-10+20)
+print (1+2.66)
+print (1.2+1.2)
+
+#subtraction
+print (60-30)
+print (-30-20)
+print (-30- -20)
+print (5.66-3.44)
+
+#multiplication
+print (10*3)
+print (5+10*100)
+print  ((10+5)*100)
+
+#division
+print (100/20)
+print (int(100/20))
+
+#modulus
+print (8%2)
+print (9%2)
+print (20%3)
+print (20%5)
+print (22%5)
+
+#exponent
+print (2**5)
+print (2*2*2*2*2)
+print (5**4)
+print (5*5*5*5)
+
+#floor division
+print (100//20)
+print (110//20)
+print (120//20)
+print (140//20)
+print (142//20)
+print (139//20)
+
+##list##
+#[1] list items are enclosed in square bracktes
+#[2] list are ordered, ti use index to access item
+#[3] list are multable => add ,delete, edit
+#[4] list items is not unique
+#[5] list can have different data types
+##-------------------------------------------------
+
+myawesomelist=["one" ,"two","one",1,100.2,True]
+print (myawesomelist)#whole list
+#access
+print (myawesomelist[1])
+print (myawesomelist[-1])
+
+print (myawesomelist[1:4])#['two', 'one', 1]
+print (myawesomelist[:4])#['one', 'two', 'one', 1]
+print (myawesomelist[1:])#['two', 'one', 1, 100.2, True]
+
+print (myawesomelist[::1])#['one', 'two', 'one', 1, 100.2, True]
+print (myawesomelist[::2])#['one', 'one', 100.2]
+
+
+print (myawesomelist)
+myawesomelist[1]=2
+print (myawesomelist)
+
+myawesomelist[-1]=False
+#myawesomelist[0:2]=[]
+#myawesomelist[0:3]=[]
+myawesomelist[0:3]=["a","b","c"]
+myawesomelist[0:3]=["a"]
+print (myawesomelist)
